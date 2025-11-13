@@ -20,6 +20,7 @@
   "item.tutorialmod.bismuth_boots": "Bismuth Boots",
 
   "item.tutorialmod.bismuth_horse_armor": "Bismuth Horse Armor",
+  "item.tutorialmod.bismuth_kuma_armor_trim_smithing_template": "Kuma Trim Template",
 
   "block.tutorialmod.bismuth_block": "Block of Bismuth",
   "block.tutorialmod.bismuth_ore": "Bismuth Ore",
@@ -44,5 +45,8 @@
   "tooltip.tutorialmod.magic_block.tooltip": "This block is very §9Magical§r",
   "tooltip.tutorialmod.chisel.shift_down": "This item can chisel blocks into bricks",
   "tooltip.tutorialmod.chisel": "Press §eShift§r for more information",
-  "tooltip.tutorialmod.radish.tooltip": "Tastes really great"
+  "tooltip.tutorialmod.radish.tooltip": "Tastes really great",
+
+  "trim_pattern.tutorialmod.kuma": "Kuma Armor Trim",
+  "trim_material.tutorialmod.bismuth": "Bismuth Material"
 }

@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_BOOTS);
 
                         output.accept(ModItems.BISMUTH_HORSE_ARMOR);
+                        output.accept(ModItems.KUMA_SMITHING_TEMPLATE);
 
                     }).build());
 

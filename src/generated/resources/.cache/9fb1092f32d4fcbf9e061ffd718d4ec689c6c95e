@@ -1,4 +1,4 @@
-// 1.21	2025-11-13T08:27:39.7852411	Recipes
+// 1.21	2025-11-13T23:01:32.5541358	Recipes
 8e4c3f6cdf6ca3b9d6a847665610e11a4ddf77b1 data/tutorialmod/advancement/recipes/building_blocks/bismuth_slab.json
 e2a84b3c4b593d4efecdfc306bede8d8d46013f2 data/tutorialmod/advancement/recipes/building_blocks/bismuth_stair.json
 2dcc5010a83039fe55ab69d220bf256abf0bdf0e data/tutorialmod/advancement/recipes/building_blocks/bismuth_wall.json
@@ -12,6 +12,7 @@ eb2787638ec7ea4f3bfcb9ac04f1a540b0467ee9 data/tutorialmod/advancement/recipes/mi
 18565edf7b1d59d1b6f206d3014a035424913913 data/tutorialmod/advancement/recipes/misc/bismuth_from_smelting_bismuth_deepslate_ore.json
 16b3a7a081e83fa22b60917ac0074681f981b24d data/tutorialmod/advancement/recipes/misc/bismuth_from_smelting_bismuth_ore.json
 099d2e8030586bebc36cf85a7507dfc7114203fc data/tutorialmod/advancement/recipes/misc/bismuth_from_smelting_raw_bismuth.json
+04a0fd8a93c993138737cc0cd7f27ef38271a614 data/tutorialmod/advancement/recipes/misc/kuma.json
 58d57b71a7fcb36638ae193df76f25d2e47385a4 data/tutorialmod/advancement/recipes/redstone/bismuth_button.json
 a21b8fd8784417b0b765f0c3ac1dafc79187351c data/tutorialmod/advancement/recipes/redstone/bismuth_door.json
 c207006d7c82b75ce0fab2055cf6cba421734f64 data/tutorialmod/advancement/recipes/redstone/bismuth_fence_gate.json
@@ -35,3 +36,4 @@ e1ab591564ee28cbf060d3a2b2910a8f8c3ea68b data/tutorialmod/recipe/bismuth_slab.js
 6c9d680e7166113dfbbd4c8eb2ee12671cf016c5 data/tutorialmod/recipe/bismuth_stair.json
 e0b9a7966402b94b544ab543181dc9cf63a26d36 data/tutorialmod/recipe/bismuth_trapdoor.json
 789ce9b023b825ccb41447f0983526de4461c6e8 data/tutorialmod/recipe/bismuth_wall.json
+6154891be1fa44fdaab1ba747314ba0eb53ac06e data/tutorialmod/recipe/kuma.json

@@ -1,0 +1,8 @@
+{
+  "asset_id": "tutorialmod:kuma",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.tutorialmod.kuma"
+  },
+  "template_item": "tutorialmod:kuma_armor_trim_smithing_template"
+}
