@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/button_inventory",
+  "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "texture": "tutorialmod:block/bismuth_block"
+    "wall": "tutorialmod:block/bismuth_block"
   }
 }
