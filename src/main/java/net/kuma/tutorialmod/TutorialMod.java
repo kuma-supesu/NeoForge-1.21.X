@@ -4,6 +4,7 @@ import net.kuma.tutorialmod.block.ModBlocks;
 import net.kuma.tutorialmod.component.ModDataComponents;
 import net.kuma.tutorialmod.item.ModCreativeModeTabs;
 import net.kuma.tutorialmod.item.ModItems;
+import net.kuma.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -80,7 +81,7 @@ public class TutorialMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
