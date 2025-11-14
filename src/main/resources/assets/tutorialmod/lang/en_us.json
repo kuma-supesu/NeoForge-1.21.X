@@ -52,5 +52,11 @@
   "tooltip.tutorialmod.radish.tooltip": "Tastes really great",
 
   "trim_pattern.tutorialmod.kuma": "Kuma Armor Trim",
-  "trim_material.tutorialmod.bismuth": "Bismuth Material"
+  "trim_material.tutorialmod.bismuth": "Bismuth Material",
+
+  "effect.tutorialmod.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion"
 }
