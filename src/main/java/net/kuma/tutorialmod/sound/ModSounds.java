@@ -2,8 +2,11 @@ package net.kuma.tutorialmod.sound;
 
 import net.kuma.tutorialmod.TutorialMod;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.item.JukeboxSong;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.util.DeferredSoundType;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -21,6 +24,13 @@ public class ModSounds {
     public static final Supplier<SoundEvent> MAGIC_BLOCK_PLACE = registerSoundEvent("magic_bloc_place");
     public static final Supplier<SoundEvent> MAGIC_BLOCK_HIT = registerSoundEvent("magic_bloc_hit");
     public static final Supplier<SoundEvent> MAGIC_BLOCK_FALL = registerSoundEvent("magic_bloc_fall");
+
+    public static final Supplier<SoundEvent> BAR_BRAWL = registerSoundEvent("bar_brawl");
+    public static final ResourceKey<JukeboxSong> BAR_BRAWL_KEY = createSong("bar_brawl");
+
+    private static ResourceKey<JukeboxSong> createSong(String name) {
+        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, name));
+    }
 
     public static final DeferredSoundType MAGIC_BLOCK_SOUNDS = new DeferredSoundType(1f, 1f,
             ModSounds.MAGIC_BLOCK_BREAK, ModSounds.MAGIC_BLOCK_STEP, ModSounds.MAGIC_BLOCK_PLACE, ModSounds.MAGIC_BLOCK_HIT, ModSounds.MAGIC_BLOCK_FALL);
