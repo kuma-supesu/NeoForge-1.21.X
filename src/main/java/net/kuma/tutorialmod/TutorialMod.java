@@ -4,6 +4,7 @@ import net.kuma.tutorialmod.block.ModBlocks;
 import net.kuma.tutorialmod.component.ModDataComponents;
 import net.kuma.tutorialmod.item.ModCreativeModeTabs;
 import net.kuma.tutorialmod.item.ModItems;
+import net.kuma.tutorialmod.sound.ModSounds;
 import net.kuma.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -46,6 +47,7 @@ public class TutorialMod {
         ModBlocks.register(modEventBus);
 
         ModDataComponents.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
