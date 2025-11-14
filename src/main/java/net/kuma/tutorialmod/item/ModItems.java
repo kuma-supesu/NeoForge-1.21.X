@@ -87,6 +87,9 @@ public class ModItems {
       public static final DeferredItem<Item> KUMA_SMITHING_TEMPLATE = ITEMS.register("kuma_armor_trim_smithing_template",
               () ->  SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "kuma")));
 
+      public static final DeferredItem<Item> KUMA_BOW = ITEMS.register("kuma_bow",
+              () -> new BowItem(new Item.Properties().durability(500)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
