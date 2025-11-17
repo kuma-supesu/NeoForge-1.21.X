@@ -50,6 +50,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.FROSTFIRE_ICE.get());
         //basicItem(ModItems.CHISEL.get());
         basicItem(ModItems.RADISH_SEEDS.get());
+        basicItem(ModItems.GOJI_BERRIES.get());
 
         basicItem(ModItems.BISMUTH_HORSE_ARMOR.get());
         basicItem(ModItems.KUMA_SMITHING_TEMPLATE.get());

@@ -1,4 +1,4 @@
-// 1.21	2025-11-17T21:29:05.3605181	Block States: tutorialmod
+// 1.21	2025-11-17T22:08:31.3129764	Block States: tutorialmod
 fc4b73d7d5429cd1c496b45459a243216fd5ce35 assets/tutorialmod/blockstates/bismuth_block.json
 12833e7b89e5c0f2e9106085dcf9d9e11cf75b57 assets/tutorialmod/blockstates/bismuth_button.json
 b4895c3f5396f7c4c029762f48f46f1369cf5748 assets/tutorialmod/blockstates/bismuth_deepslate_ore.json
@@ -12,6 +12,7 @@ a5684b332541303f689be2ab2e93be8d036d413e assets/tutorialmod/blockstates/bismuth_
 44fbacc5887ba6792a9ecafb5d71d48ba3d91d75 assets/tutorialmod/blockstates/bismuth_stair.json
 9d8278772738444ac0eba6ec9893d81fca8e1d9a assets/tutorialmod/blockstates/bismuth_trapdoor.json
 4665b9ff850bc1d6542ed2f5aaedfb1a035a83c2 assets/tutorialmod/blockstates/bismuth_wall.json
+678ad5927264542f395cb4bb78bfff6e9cf51c27 assets/tutorialmod/blockstates/goji_berry_bush.json
 2d316979b5247b802b0590d94b40bac75fde6974 assets/tutorialmod/blockstates/magic_block.json
 369ff19f0ddd34b3501a422ca9ba6eee50c28c09 assets/tutorialmod/blockstates/radish_crop.json
 0097fc802455bf29f1de139c677fb7693e30bd10 assets/tutorialmod/models/block/bismuth_block.json
@@ -48,6 +49,10 @@ bf629be687860a4a95a789e357fda47617961e8a assets/tutorialmod/models/block/bismuth
 4356e8812844946465db80e2a1635db74b50c8c6 assets/tutorialmod/models/block/bismuth_wall_post.json
 78aa4dc97e2c8f0af42d1b0593c3634241e449ef assets/tutorialmod/models/block/bismuth_wall_side.json
 aaab7fc2523e163f34142343d458459ae7208fe9 assets/tutorialmod/models/block/bismuth_wall_side_tall.json
+c811d3f8457219f4c397915bba99631c8700b605 assets/tutorialmod/models/block/goji_berry_bush_stage0.json
+06e3214d6d30fce643868eb546d51354c878a90a assets/tutorialmod/models/block/goji_berry_bush_stage1.json
+9781bc5b5e02c776eda89b0056f7c6474ed3bee9 assets/tutorialmod/models/block/goji_berry_bush_stage2.json
+29d79f81e4035346d0ad420507131070f00a9118 assets/tutorialmod/models/block/goji_berry_bush_stage3.json
 ed27aaa00c275028e1495bb6d6bfdcea1851067b assets/tutorialmod/models/block/magic_block.json
 31185a07fc2dc6f1371a066ffe41a03981a51692 assets/tutorialmod/models/block/radish_crop_stage0.json
 130f25109def058713c7d74bf283b7c097ae5425 assets/tutorialmod/models/block/radish_crop_stage1.json

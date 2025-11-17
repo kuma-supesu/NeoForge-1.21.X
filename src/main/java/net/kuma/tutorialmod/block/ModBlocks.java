@@ -2,6 +2,7 @@ package net.kuma.tutorialmod.block;
 
 import net.kuma.tutorialmod.TutorialMod;
 import net.kuma.tutorialmod.block.custom.BismuthLampBlock;
+import net.kuma.tutorialmod.block.custom.GojiBerryBushBlock;
 import net.kuma.tutorialmod.block.custom.MagicBlock;
 import net.kuma.tutorialmod.block.custom.RadishCropBlock;
 import net.kuma.tutorialmod.item.ModItems;
@@ -73,6 +74,9 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> RADISH_CROP = BLOCKS.register("radish_crop",
             () -> new RadishCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS)));
+
+    public static final DeferredBlock<Block> GOJI_BERRY_BUSH = BLOCKS.register("goji_berry_bush",
+            () -> new GojiBerryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

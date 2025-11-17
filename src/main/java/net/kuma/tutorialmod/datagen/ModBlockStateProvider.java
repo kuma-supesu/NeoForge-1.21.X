@@ -3,10 +3,12 @@ package net.kuma.tutorialmod.datagen;
 import net.kuma.tutorialmod.TutorialMod;
 import net.kuma.tutorialmod.block.ModBlocks;
 import net.kuma.tutorialmod.block.custom.BismuthLampBlock;
+import net.kuma.tutorialmod.block.custom.GojiBerryBushBlock;
 import net.kuma.tutorialmod.block.custom.RadishCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.SweetBerryBushBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
@@ -48,8 +50,25 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         customLamp();
         makeCrop(((CropBlock) ModBlocks.RADISH_CROP.get()), "radish_crop_stage", "radish_crop_stage");
+        makeBush(((SweetBerryBushBlock) ModBlocks.GOJI_BERRY_BUSH.get()), "goji_berry_bush_stage", "goji_berry_bush_stage");
 
     }
+
+
+    public void makeBush(SweetBerryBushBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> states(state, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] states(BlockState state, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(GojiBerryBushBlock.AGE),
+                ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "block/" + textureName + state.getValue(GojiBerryBushBlock.AGE))).renderType("cutout"));
+
+        return models;
+    }
+
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {
         Function<BlockState, ConfiguredModel[]> function = state -> states(state, block, modelName, textureName);
