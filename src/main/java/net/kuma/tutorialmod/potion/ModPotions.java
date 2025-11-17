@@ -1,4 +1,4 @@
-package net.kuma.tutorialmod.portion;
+package net.kuma.tutorialmod.potion;
 
 import net.kuma.tutorialmod.TutorialMod;
 import net.kuma.tutorialmod.effect.ModEffects;

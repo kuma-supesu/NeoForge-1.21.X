@@ -2,7 +2,7 @@ package net.kuma.tutorialmod.event;
 
 import net.kuma.tutorialmod.TutorialMod;
 import net.kuma.tutorialmod.item.custom.HammerItem;
-import net.kuma.tutorialmod.portion.ModPotions;
+import net.kuma.tutorialmod.potion.ModPotions;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;

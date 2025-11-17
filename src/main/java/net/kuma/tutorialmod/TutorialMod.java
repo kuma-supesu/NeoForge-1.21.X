@@ -6,7 +6,7 @@ import net.kuma.tutorialmod.effect.ModEffects;
 import net.kuma.tutorialmod.enchantment.ModEnchantmentEffects;
 import net.kuma.tutorialmod.item.ModCreativeModeTabs;
 import net.kuma.tutorialmod.item.ModItems;
-import net.kuma.tutorialmod.portion.ModPotions;
+import net.kuma.tutorialmod.potion.ModPotions;
 import net.kuma.tutorialmod.sound.ModSounds;
 import net.kuma.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;

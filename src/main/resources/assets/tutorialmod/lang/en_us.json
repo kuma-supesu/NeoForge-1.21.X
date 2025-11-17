@@ -3,6 +3,7 @@
   "item.tutorialmod.raw_bismuth": "Raw Bismuth",
   "item.tutorialmod.chisel": "Chisel",
   "item.tutorialmod.radish": "Radish",
+  "item.tutorialmod.radish_seeds": "Radish Seeds",
   "item.tutorialmod.frostfire_ice": "FrostFire Ice",
   "item.tutorialmod.starlight_ashes": "Starlight Ashes",
 
@@ -42,6 +43,7 @@
   "block.tutorialmod.bismuth_wall": "Bismuth Wall",
   "block.tutorialmod.bismuth_door": "Bismuth Door",
   "block.tutorialmod.bismuth_trapdoor": "Bismuth Trapdoor",
+  "block.tutorialmod.radish_crop": "Radish Crop",
 
   "creativetab.tutorialmod.bismuth.items": "Bismuth Items",
   "creativetab.tutorialmod.bismuth.blocks": "Bismuth BLocks",

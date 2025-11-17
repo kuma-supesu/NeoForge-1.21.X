@@ -1,4 +1,4 @@
-// 1.21	2025-11-13T11:33:46.1750742	Loot Tables
+// 1.21	2025-11-17T21:29:05.3570111	Loot Tables
 ea33c2a1e420da7916da2626364d946e161c2f6c data/tutorialmod/loot_table/blocks/bismuth_block.json
 63b39624969e53a57f98de95c0d38077aa71266c data/tutorialmod/loot_table/blocks/bismuth_button.json
 fd34a70d43389eb067a721582f8a89c3b58d29ab data/tutorialmod/loot_table/blocks/bismuth_deepslate_ore.json
@@ -13,3 +13,4 @@ edb6bac3a5e85ec91ead9c525ddd13c5bbe7a2cb data/tutorialmod/loot_table/blocks/bism
 5d7db77384b7e1a5ee2fe5c42e7aea41ff597ef5 data/tutorialmod/loot_table/blocks/bismuth_trapdoor.json
 af8e04bde28dac9e526252e8e8eb41e72357aa78 data/tutorialmod/loot_table/blocks/bismuth_wall.json
 8cadd73280b5040d1e510cad246834ca39b6b62f data/tutorialmod/loot_table/blocks/magic_block.json
+36b9bcd239fc7b8ab4aeafcbd04a4e2528293936 data/tutorialmod/loot_table/blocks/radish_crop.json
